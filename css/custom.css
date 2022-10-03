@@ -145,3 +145,8 @@ blockquote {
 /*    line-height: 1.45;*/
     font-style: italic;
 }
+
+
+.courseinfo {
+    text-indent: 50px;
+}
