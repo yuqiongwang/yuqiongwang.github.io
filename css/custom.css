@@ -107,15 +107,33 @@ ul {
     margin-left: 4.2rem;
 }
 
+.regularlist {
+    list-style-position: outside;
+    line-height: 3;
+    margin-left: 2rem;
+}
+
+
 @media (min-width: 550px) {
     .paperlist {
         margin-left: 6%;
         margin-right: 6%;
     }
 }
-       
+      
+@media (min-width: 550px) {
+    .regularlist {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
 
 .paperlist > li {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.regularlist > li {
     position: relative;
     margin-bottom: 1.5rem;
 }
